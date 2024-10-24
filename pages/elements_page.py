@@ -42,12 +42,22 @@ class CheckBoxPage(BasePage):
             item = item_list[random.randint(1, 15)]
             if count > 0:
                 self.go_to_element(item)
-                print(item.text)
                 item.click()
                 count -= 1
             else:
                 break
 
+    def get_checked_checkboxes(self):
+        checked_list = self.elements_are_present(self.locators.CHECKED_ITEMS)    # выбрали только с актив чекбоксом
+        data = []
+        for box in checked_list:
+            title_item = box.find_element("xpath",self.locators.TITLE_ITEM) # внутри выбраных чекбоксов смотрим это
+            data.append(title_item.text)
+        return str(data).replace(' ','').replace('.doc','').lower()
 
-
-
+    def get_output_info(self):
+        output_list = self.elements_are_present(self.locators.OUTPUT_ITEMS)
+        data_output = []
+        for item in output_list:
+            data_output.append(item.text)
+        return str(data_output).replace(' ','').lower()

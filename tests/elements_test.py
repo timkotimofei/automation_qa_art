@@ -25,6 +25,9 @@ class TestElements:
             check_box_page.open()
             check_box_page.open_full_list()
             check_box_page.click_random_checkbox()
+            input_checkbox = check_box_page.get_checked_checkboxes()
+            output_result = check_box_page.get_output_info()
+            assert input_checkbox == output_result, 'Checkboxes have not been selected'
             time.sleep(5)
 
 
