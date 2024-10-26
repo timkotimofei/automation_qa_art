@@ -23,6 +23,14 @@ class CheckBoxPageLocators:
     TITLE_ITEM = (".//ancestor::span[@class='rct-text']")
     OUTPUT_ITEMS = (By.XPATH, "//span[@class='text-success']")
 
+class RadioButtonPageLocators:
+    YES_BUTTON = (By.CSS_SELECTOR, "label[for='yesRadio']")
+    IMPRESSIVE_BUTTON = (By.CSS_SELECTOR, "label[for='impressiveRadio']")
+    NO_BUTTON = (By.CSS_SELECTOR, "label[for='noRadio']")
+    OUTPUT_RESULT = (By.CSS_SELECTOR, "p span[class='text-success']")
+
+
+
 
 
 
