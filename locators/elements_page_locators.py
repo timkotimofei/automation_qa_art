@@ -64,6 +64,23 @@ class ButtonsPageLocators:
     SUCCESS_CLICK_ME = (By.ID, 'dynamicClickMessage')
 
 
+class LinksPageLocators:
+
+    # new tab links
+    SIMPLE_LINK = (By.XPATH, "//a[@id='simpleLink']")
+    DYNAMIC_LINK = (By.XPATH, "//a[@id='dynamicLink']")
+
+    # api calls links
+    CREATED_LINK = (By.XPATH, "//a[@id='created']")
+    NO_CONTENT_LINK = (By.XPATH, "//a[@id='no-content']")
+    MOVED_LINK = (By.XPATH, "//a[@id='moved']")
+    BAD_REQUEST_LINK = (By.XPATH, "//a[@id='bad-request']")
+    UNAUTHORIZED_LINK = (By.XPATH, "//a[@id='unauthorized']")
+    FORBIDDEN_LINK = (By.XPATH, "//a[@id='forbidden']")
+    NOT_FOUND_LINK = (By.XPATH, "//a[@id='invalid-url']")
+
+    #response text
+    RESPONSE_TEXT = (By.ID, 'linkResponse')
 
 
 

@@ -1,15 +1,18 @@
 import time
 import random
+from http.client import responses
 from itertools import count
 
+import requests
 from dotenv import set_key
 from requests import delete
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.devtools.v127.storage import delete_storage_bucket
+from urllib3 import request
 
 from generator.generator import generated_person
 from locators.elements_page_locators import TextBookPageLocators, CheckBoxPageLocators, RadioButtonPageLocators, \
-    WebTablePageLocators, ButtonsPageLocators
+    WebTablePageLocators, ButtonsPageLocators, LinksPageLocators
 from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
@@ -184,6 +187,53 @@ class ButtonsPage(BasePage):
 
     def check_clicked_on_the_button(self, element):
         return self.element_is_present(element).text
+
+class LinksPage(BasePage):
+    locators = LinksPageLocators()
+
+    def check_new_tab_links(self, type_link):
+        self.remove_footer()
+        if type_link == 'simple':
+            simple_link = self.element_is_visible(self.locators.SIMPLE_LINK)
+            link_href = simple_link.get_attribute('href')
+            request = requests.get(link_href)
+            if request.status_code == 200:
+                simple_link.click()
+                self.driver.switch_to.window(self.driver.window_handles[1])
+                url = self.driver.current_url
+                return link_href, url
+            else:
+                return link_href, request.status_code
+
+        if type_link == 'dynamic':
+            dynamic_link = self.element_is_visible(self.locators.DYNAMIC_LINK)
+            link_href = dynamic_link.get_attribute('href')
+            request = requests.get(link_href)
+            if request.status_code == 200:
+                dynamic_link.click()
+                self.driver.switch_to.window(self.driver.window_handles[1])
+                url = self.driver.current_url
+                return link_href, url
+            else:
+                return link_href, request.status_code
+
+    def created_link(self, url):
+        self.remove_footer()
+        created_link = self.element_is_present(self.locators.CREATED_LINK)
+        created_link.click()
+        response_text = self.element_is_present(self.locators.RESPONSE_TEXT).text
+        response_code = requests.get(url).status_code
+        return response_text, response_code
+
+
+    def bad_request_link(self, url):
+        self.remove_footer()
+        bad_request_link = self.element_is_present(self.locators.BAD_REQUEST_LINK)
+        bad_request_link.click()
+        response_text = self.element_is_present(self.locators.RESPONSE_TEXT).text
+        response_code = requests.get(url).status_code
+        return response_text, response_code
+
 
 
 

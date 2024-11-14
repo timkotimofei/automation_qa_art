@@ -4,7 +4,7 @@ from random import random, randint
 from tkinter import Button
 
 from conftest import driver
-from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablePage, ButtonsPage
+from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablePage, ButtonsPage, LinksPage
 
 
 class TestElements:
@@ -112,6 +112,43 @@ class TestElements:
             assert right == 'You have done a right click', "The right click button was not pressed"
             assert click == 'You have done a dynamic click', "The dynamic click button was not pressed"
 
+
+    class TestLinksPage:
+
+        def test_simple_link(self, driver):
+            links_page = LinksPage(driver, 'https://demoqa.com/links')
+            links_page.open()
+            href_link, current_url = links_page.check_new_tab_links('simple')
+            print(href_link)
+            print(current_url)
+            assert href_link == current_url , 'The link is broken or URL is incorrect'
+
+        def test_dynamic_link(self,driver):
+            links_page = LinksPage(driver, 'https://demoqa.com/links')
+            links_page.open()
+            href_link, current_url = links_page.check_new_tab_links('dynamic')
+            # print(href_link)
+            # print(current_url)
+            assert href_link == current_url
+
+        def test_created_link(self, driver):
+            links_page = LinksPage(driver, 'https://demoqa.com/links')
+            links_page.open()
+            text, code = links_page.created_link('https://demoqa.com/created')
+            # print(text)
+            # print(code)
+            assert '201' in text
+            assert 201 == code
+
+
+        def test_bad_request_link(self, driver):
+            links_page = LinksPage(driver, 'https://demoqa.com/links')
+            links_page.open()
+            text, code = links_page.bad_request_link('https://demoqa.com/bad-request')
+            # print(text)
+            # print(code)
+            assert '400' in text
+            assert 400 == code
 
 
 
