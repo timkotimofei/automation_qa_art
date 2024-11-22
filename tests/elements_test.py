@@ -4,7 +4,8 @@ from random import random, randint
 from tkinter import Button
 
 from conftest import driver
-from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablePage, ButtonsPage, LinksPage
+from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablePage, ButtonsPage, LinksPage, \
+    UploadDownloadPage
 
 
 class TestElements:
@@ -153,10 +154,20 @@ class TestElements:
 
 
 
+    class TestUploadDownload:
+
+        def test_upload_file(self,driver):
+            upload_download_page = UploadDownloadPage(driver, 'https://demoqa.com/upload-download')
+            upload_download_page.open()
+            file_name, file_name_result = upload_download_page.upload_file()
+            assert file_name == file_name_result, 'The file has not been upload'
 
 
-
-
+        def test_download_file(self, driver):
+            download_file_page = UploadDownloadPage(driver, 'https://demoqa.com/upload-download')
+            download_file_page.open()
+            check = download_file_page .download_file()
+            assert check is True, 'The file has not been download'
 
 
 

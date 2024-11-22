@@ -82,6 +82,15 @@ class LinksPageLocators:
     #response text
     RESPONSE_TEXT = (By.ID, 'linkResponse')
 
+class UploadDownloadPageLocators:
+
+    UPLOAD_FILE = (By.CSS_SELECTOR,"input[id='uploadFile']")
+    UPLOADED_RESULT = (By.ID, 'uploadedFilePath')
+
+    DOWNLOAD_FILE_BUTTON = (By.ID, 'downloadButton')
+
+
+
 
 
 

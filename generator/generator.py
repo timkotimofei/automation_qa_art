@@ -1,5 +1,5 @@
 from faker.generator import random
-
+import os
 from data.data import Person
 from faker import Faker
 
@@ -26,3 +26,16 @@ def generated_person():
 # gen = next(generated_person())
 #
 # print(gen.first_name)
+
+
+def generated_file():
+    path = f'/Users/timofeitimko/PycharmProjects/automation_qa_art/filetest{random.randint(1,999)}.txt'
+    with open(path, 'w+') as file:
+        data = file.write('Hello World !')
+    return file.name, path
+
+
+
+
+
+

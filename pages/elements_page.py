@@ -1,5 +1,7 @@
+import os
 import time
 import random
+import base64
 from http.client import responses
 from itertools import count
 
@@ -10,9 +12,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.devtools.v127.storage import delete_storage_bucket
 from urllib3 import request
 
-from generator.generator import generated_person
+from debug import offset
+from generator.generator import generated_person, generated_file
 from locators.elements_page_locators import TextBookPageLocators, CheckBoxPageLocators, RadioButtonPageLocators, \
-    WebTablePageLocators, ButtonsPageLocators, LinksPageLocators
+    WebTablePageLocators, ButtonsPageLocators, LinksPageLocators, UploadDownloadPageLocators
 from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
@@ -233,6 +236,36 @@ class LinksPage(BasePage):
         response_text = self.element_is_present(self.locators.RESPONSE_TEXT).text
         response_code = requests.get(url).status_code
         return response_text, response_code
+
+
+class UploadDownloadPage(BasePage):
+    locators = UploadDownloadPageLocators()
+
+    def upload_file(self):
+        file_name, path = generated_file()
+        self.element_is_present(self.locators.UPLOAD_FILE).send_keys(path)
+        os.remove(path)   # удаляем сразу же файл, чтобы не скапливался мусор
+        text = self.element_is_present(self.locators.UPLOADED_RESULT).text
+        file_name = path.split('/')[-1]
+        file_name_result = text.split('\\')[-1]
+        return file_name, file_name_result
+
+    def download_file(self):
+       link = self.element_is_present(self.locators.DOWNLOAD_FILE_BUTTON).get_attribute('href')
+       link_b = base64.b64decode(link)
+       path_name_file = rf'/Users/timofeitimko/PycharmProjects/automation_qa_art/filetest{random.randint(1,999)}.jpg'
+       with open(path_name_file, 'wb+') as f:
+           offset__= link_b.find(b'\xff\xd8')
+           f.write(link_b[offset__:])
+           check_file = os.path.exists(path_name_file)
+       os.remove(path_name_file)
+       return check_file
+
+
+
+
+
+
 
 
 
