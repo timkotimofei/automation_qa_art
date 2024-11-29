@@ -1,22 +1,19 @@
-import os
-import time
-import random
 import base64
-from http.client import responses
-from itertools import count
+import os
+import random
+import time
+from gc import enable
 
 import requests
-from dotenv import set_key
-from requests import delete
+from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.devtools.v127.storage import delete_storage_bucket
-from urllib3 import request
 
-from debug import offset
 from generator.generator import generated_person, generated_file
 from locators.elements_page_locators import TextBookPageLocators, CheckBoxPageLocators, RadioButtonPageLocators, \
-    WebTablePageLocators, ButtonsPageLocators, LinksPageLocators, UploadDownloadPageLocators
+    WebTablePageLocators, ButtonsPageLocators, LinksPageLocators, UploadDownloadPageLocators, \
+    DynamicPropertiesPageLocators
 from pages.base_page import BasePage
+
 
 class TextBoxPage(BasePage):
     locators = TextBookPageLocators()
@@ -263,6 +260,29 @@ class UploadDownloadPage(BasePage):
 
 
 
+class DynamicPropertiesPage(BasePage):
+    locators = DynamicPropertiesPageLocators()
+
+    def check_enable_button(self):
+        try:
+            enable_after_button = self.elements_is_clickable(self.locators.WILL_ENABLE_5_SECONDS_BUTTON)
+        except TimeoutException:
+            return False
+        return True
+
+    def check_changed_color(self):
+        color_button = self.element_is_present(self.locators.COLOR_CHANGE_BUTTON)
+        color_before = color_button.value_of_css_property('color')
+        time.sleep(6)
+        color_after = color_button.value_of_css_property('color')
+        return color_before, color_after
+
+    def check_appear_of_button(self):
+        try:
+            self.element_is_visible(self.locators.VISIBLE_AFTER_5_SECOND_BUTTON) # в basepage стоит 5 сек таймаут по дефолту
+        except TimeoutException:
+            return False
+        return True
 
 
 

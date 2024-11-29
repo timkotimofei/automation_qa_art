@@ -1,11 +1,10 @@
 import time
-from itertools import count
-from random import random, randint
-from tkinter import Button
+from faulthandler import is_enabled
+from random import randint
 
 from conftest import driver
 from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablePage, ButtonsPage, LinksPage, \
-    UploadDownloadPage
+    UploadDownloadPage, DynamicPropertiesPage
 
 
 class TestElements:
@@ -168,6 +167,27 @@ class TestElements:
             download_file_page.open()
             check = download_file_page .download_file()
             assert check is True, 'The file has not been download'
+
+    class TestDynamicPropertiesPage:
+
+        def test_enable_button_after_5_second(self, driver):
+            enable_button_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            enable_button_page.open()
+            is_enabled = enable_button_page.check_enable_button()
+            assert is_enabled is True, 'The button does not enabled after 5 sec'
+
+        def test_dynamic_properties(self, driver):
+            dynamic_properties_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            dynamic_properties_page.open()
+            color_before, color_after = dynamic_properties_page.check_changed_color()
+            assert  color_before != color_after , 'The color does not changed'
+
+        def test_the_button_is_appear(self, driver):
+            appear_button = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            appear_button.open()
+            is_appear = appear_button.check_appear_of_button()
+            assert is_appear is True, 'The button does not appear after 5 seconds'
+
 
 
 

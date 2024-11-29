@@ -89,6 +89,12 @@ class UploadDownloadPageLocators:
 
     DOWNLOAD_FILE_BUTTON = (By.ID, 'downloadButton')
 
+class DynamicPropertiesPageLocators:
+
+    WILL_ENABLE_5_SECONDS_BUTTON = (By.CSS_SELECTOR, 'button[id=enableAfter]')
+    COLOR_CHANGE_BUTTON = (By.XPATH, "//button[contains(text(), 'Color Change')]")
+    VISIBLE_AFTER_5_SECOND_BUTTON = (By.XPATH, "//button[contains(text(), 'Visible After 5 Seconds')]")
+
 
 
 
