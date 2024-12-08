@@ -15,3 +15,5 @@ class Person:
     department: str = None
     current_address: str = None
     permanent_address: str = None
+    mobile: str = None
+    date_of_birth: str = None
