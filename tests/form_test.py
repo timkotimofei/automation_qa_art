@@ -1,7 +1,7 @@
 import time
-
 from pages.form_page import FormPage
 from conftest import driver
+
 
 class TestForm:
 

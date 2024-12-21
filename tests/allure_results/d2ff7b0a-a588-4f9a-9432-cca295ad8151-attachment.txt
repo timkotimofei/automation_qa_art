@@ -1,0 +1,3 @@
+[35mDEBUG   [0m root:conftest.py:25 Prepare the browser
+[35mDEBUG   [0m root:conftest.py:28 The browser has been started
+[35mDEBUG   [0m root:conftest.py:32 The browser has been close

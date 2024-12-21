@@ -1,0 +1,8 @@
+[35mDEBUG   [0m root:conftest.py:25 Prepare the browser
+[35mDEBUG   [0m root:conftest.py:28 The browser has been started
+[35mDEBUG   [0m root:alerts_frame_windows_test.py:20 Start click to alert button
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:15 Start searching elements on the page
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:17 The allert button has been clicked
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:20 The allert tab text has been pased
+[35mDEBUG   [0m root:alerts_frame_windows_test.py:22 The alert button has been clicked
+[35mDEBUG   [0m root:conftest.py:32 The browser has been close
