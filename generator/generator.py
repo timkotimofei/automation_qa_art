@@ -105,4 +105,4 @@ def generate_city(state):
     }
     return city[state][random.randint(1,2)]
 
-# print(generate_city("Uttar Pradesh"))
+# print(generate_city("Uttar Pradesh"))py
