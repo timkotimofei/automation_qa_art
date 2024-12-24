@@ -75,7 +75,27 @@ class TestAlertsFrameWindow:
     @allure.feature("Frame Page")
     class TestFramePage:
 
-        def test_frames(self, driver):
+        @pytest.mark.regression
+        @allure.title("Test First Big Frame")
+        def test_big_frame(self, driver):
             frame_page = FramePage(driver, 'https://demoqa.com/frames')
             frame_page.open()
+            width, height, text_frame = frame_page.check_frame1()
+            assert width == '500px', 'The value of width does not match'
+            assert height == '350px', 'The value of height does not match'
+            assert text_frame == 'This is a sample page', 'The text message does not match'
+
+        @pytest.mark.regression
+        @allure.title("Test Second Little Frame")
+        def test_little_frame(self, driver):
+            frame_page = FramePage(driver, 'https://demoqa.com/frames')
+            frame_page.open()
+            width, height, text_frame = frame_page.check_frame2()
+            assert width == '100px', 'The value of width does not match'
+            assert height == '100px', 'The value of height does not match'
+            assert text_frame == 'This is a sample page', 'The text message does not match'
+
+
+
+
 

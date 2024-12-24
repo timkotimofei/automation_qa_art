@@ -861,3 +861,120 @@
 [DEBUG][2024-12-19 20:48:22,664][root] Prepare the browser
 [DEBUG][2024-12-19 20:48:23,595][root] The browser has been started
 [DEBUG][2024-12-19 20:48:31,636][root] The browser has been close
+[INFO][2024-12-23 11:56:59,189][root] Prepare to printing
+[INFO][2024-12-23 11:56:59,190][root] After print preparations
+[INFO][2024-12-23 11:57:16,012][root] Prepare to printing
+[INFO][2024-12-23 11:57:16,012][root] After print preparations
+[INFO][2024-12-23 11:57:39,208][root] Prepare to printing
+[INFO][2024-12-23 11:57:39,208][root] After print preparations
+[INFO][2024-12-23 12:40:42,690][root] Prepare to printing
+[INFO][2024-12-23 12:40:42,690][root] After print preparations
+[DEBUG][2024-12-23 12:41:00,267][root] Prepare the browser
+[DEBUG][2024-12-23 12:41:01,653][root] The browser has been started
+[DEBUG][2024-12-23 12:41:04,216][root] The browser has been close
+[INFO][2024-12-23 12:41:10,448][root] Prepare to printing
+[INFO][2024-12-23 12:41:10,449][root] After print preparations
+[INFO][2024-12-23 12:45:52,150][root] Prepare to printing
+[INFO][2024-12-23 12:45:52,150][root] After print preparations
+[DEBUG][2024-12-23 13:09:52,629][root] Prepare the browser
+[DEBUG][2024-12-23 13:09:53,395][root] The browser has been started
+[DEBUG][2024-12-23 13:09:56,691][root] The browser has been close
+[DEBUG][2024-12-23 17:39:10,336][root] Prepare the browser
+[DEBUG][2024-12-23 17:39:11,998][root] The browser has been started
+[DEBUG][2024-12-23 17:39:21,810][root] The browser has been close
+[DEBUG][2024-12-23 18:03:59,855][root] Prepare the browser
+[DEBUG][2024-12-23 18:04:00,754][root] The browser has been started
+[DEBUG][2024-12-23 18:04:10,395][root] The browser has been close
+[DEBUG][2024-12-23 18:11:15,124][root] Prepare the browser
+[DEBUG][2024-12-23 18:11:16,262][root] The browser has been started
+[DEBUG][2024-12-23 18:11:18,756][root] The browser has been close
+[DEBUG][2024-12-23 18:12:48,305][root] Prepare the browser
+[DEBUG][2024-12-23 18:12:49,193][root] The browser has been started
+[DEBUG][2024-12-23 18:12:51,732][root] The browser has been close
+[DEBUG][2024-12-23 18:13:17,861][root] Prepare the browser
+[DEBUG][2024-12-23 18:13:18,701][root] The browser has been started
+[DEBUG][2024-12-23 18:13:21,438][root] The browser has been close
+[DEBUG][2024-12-23 18:15:38,531][root] Prepare the browser
+[DEBUG][2024-12-23 18:15:39,365][root] The browser has been started
+[DEBUG][2024-12-23 18:15:47,421][root] The browser has been close
+[DEBUG][2024-12-23 18:18:41,093][root] Prepare the browser
+[DEBUG][2024-12-23 18:18:41,943][root] The browser has been started
+[DEBUG][2024-12-23 18:18:49,907][root] The browser has been close
+[DEBUG][2024-12-23 18:21:57,164][root] Prepare the browser
+[DEBUG][2024-12-23 18:21:57,911][root] The browser has been started
+[DEBUG][2024-12-23 18:22:00,432][root] The browser has been close
+[DEBUG][2024-12-23 18:22:27,618][root] Prepare the browser
+[DEBUG][2024-12-23 18:22:28,342][root] The browser has been started
+[DEBUG][2024-12-23 18:22:30,994][root] The browser has been close
+[DEBUG][2024-12-23 18:23:12,231][root] Prepare the browser
+[DEBUG][2024-12-23 18:23:12,959][root] The browser has been started
+[DEBUG][2024-12-23 18:23:15,770][root] The browser has been close
+[DEBUG][2024-12-23 18:23:30,480][root] Prepare the browser
+[DEBUG][2024-12-23 18:23:31,116][root] The browser has been started
+[DEBUG][2024-12-23 18:23:33,915][root] The browser has been close
+[DEBUG][2024-12-23 18:24:03,860][root] Prepare the browser
+[DEBUG][2024-12-23 18:24:04,590][root] The browser has been started
+[DEBUG][2024-12-23 18:24:07,340][root] The browser has been close
+[DEBUG][2024-12-23 18:24:49,326][root] Prepare the browser
+[DEBUG][2024-12-23 18:24:50,065][root] The browser has been started
+[DEBUG][2024-12-23 18:24:57,725][root] The browser has been close
+[DEBUG][2024-12-23 18:25:18,528][root] Prepare the browser
+[DEBUG][2024-12-23 18:25:19,209][root] The browser has been started
+[DEBUG][2024-12-23 18:25:22,340][root] The browser has been close
+[DEBUG][2024-12-23 18:25:50,510][root] Prepare the browser
+[DEBUG][2024-12-23 18:25:51,209][root] The browser has been started
+[DEBUG][2024-12-23 18:25:53,444][root] The browser has been close
+[DEBUG][2024-12-23 18:27:14,434][root] Prepare the browser
+[DEBUG][2024-12-23 18:27:15,163][root] The browser has been started
+[DEBUG][2024-12-23 18:27:22,952][root] The browser has been close
+[DEBUG][2024-12-23 18:28:12,097][root] Prepare the browser
+[DEBUG][2024-12-23 18:28:12,822][root] The browser has been started
+[DEBUG][2024-12-23 18:28:21,586][root] The browser has been close
+[DEBUG][2024-12-23 18:28:49,018][root] Prepare the browser
+[DEBUG][2024-12-23 18:28:49,775][root] The browser has been started
+[DEBUG][2024-12-23 18:28:52,806][root] The browser has been close
+[DEBUG][2024-12-23 18:40:27,234][root] Prepare the browser
+[DEBUG][2024-12-23 18:40:28,660][root] The browser has been started
+[DEBUG][2024-12-23 18:40:37,062][root] The browser has been close
+[DEBUG][2024-12-23 18:41:16,245][root] Prepare the browser
+[DEBUG][2024-12-23 18:41:16,977][root] The browser has been started
+[DEBUG][2024-12-23 18:41:25,369][root] The browser has been close
+[DEBUG][2024-12-23 18:41:49,234][root] Prepare the browser
+[DEBUG][2024-12-23 18:41:49,975][root] The browser has been started
+[DEBUG][2024-12-23 18:41:57,553][root] The browser has been close
+[DEBUG][2024-12-23 19:17:49,103][root] Prepare the browser
+[DEBUG][2024-12-23 19:17:50,163][root] The browser has been started
+[DEBUG][2024-12-23 19:17:57,671][root] The browser has been close
+[DEBUG][2024-12-23 20:34:32,548][root] Prepare the browser
+[DEBUG][2024-12-23 20:34:33,905][root] The browser has been started
+[DEBUG][2024-12-23 20:34:36,853][root] The browser has been close
+[DEBUG][2024-12-23 20:42:46,017][root] Prepare the browser
+[DEBUG][2024-12-23 20:42:46,772][root] The browser has been started
+[DEBUG][2024-12-23 20:42:49,082][root] The browser has been close
+[DEBUG][2024-12-23 20:46:52,643][root] Prepare the browser
+[DEBUG][2024-12-23 20:46:53,384][root] The browser has been started
+[DEBUG][2024-12-23 20:46:55,729][root] The browser has been close
+[DEBUG][2024-12-23 20:52:56,630][root] Prepare the browser
+[DEBUG][2024-12-23 20:52:57,376][root] The browser has been started
+[DEBUG][2024-12-23 20:53:00,364][root] The browser has been close
+[DEBUG][2024-12-23 21:02:57,193][root] Prepare the browser
+[DEBUG][2024-12-23 21:02:57,953][root] The browser has been started
+[DEBUG][2024-12-23 21:03:00,266][root] The browser has been close
+[DEBUG][2024-12-23 21:04:01,478][root] Prepare the browser
+[DEBUG][2024-12-23 21:04:02,230][root] The browser has been started
+[DEBUG][2024-12-23 21:04:05,164][root] The browser has been close
+[DEBUG][2024-12-23 21:06:44,549][root] Prepare the browser
+[DEBUG][2024-12-23 21:06:45,294][root] The browser has been started
+[DEBUG][2024-12-23 21:06:47,967][root] The browser has been close
+[DEBUG][2024-12-23 21:07:29,819][root] Prepare the browser
+[DEBUG][2024-12-23 21:07:30,559][root] The browser has been started
+[DEBUG][2024-12-23 21:07:32,943][root] The browser has been close
+[DEBUG][2024-12-23 21:08:28,764][root] Prepare the browser
+[DEBUG][2024-12-23 21:08:29,508][root] The browser has been started
+[DEBUG][2024-12-23 21:08:31,925][root] The browser has been close
+[DEBUG][2024-12-23 21:10:32,146][root] Prepare the browser
+[DEBUG][2024-12-23 21:10:32,875][root] The browser has been started
+[DEBUG][2024-12-23 21:10:36,207][root] The browser has been close
+[DEBUG][2024-12-23 21:10:36,288][root] Prepare the browser
+[DEBUG][2024-12-23 21:10:37,263][root] The browser has been started
+[DEBUG][2024-12-23 21:10:41,037][root] The browser has been close

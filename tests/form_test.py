@@ -1,13 +1,26 @@
 import time
+import allure
+import pytest
 from pages.form_page import FormPage
 from conftest import driver
 
-
+@allure.suite("Test Form")
 class TestForm:
-
+    @allure.feature("Test Form Page")
     class TestFormPage:
 
+        @pytest.mark.regression
+        @allure.title("Test form")
         def test_form(self, driver):
+            """
+            Шаги:
+            1. Open the page 'https://demoqa.com/automation-practice-form'
+            2. Wait until page loading
+            3. Generate testing data
+            4. Fill the fields by the generated test data
+            5. Click the button Submit
+            6. Validate result table by parse text
+            """
             form_page = FormPage(driver, 'https://demoqa.com/automation-practice-form')
             form_page.open()
             file_name, subject, address, person_info = form_page.fill_form_fields()

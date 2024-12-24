@@ -8,11 +8,20 @@ from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebT
 
 @allure.suite("Elements")
 class TestElements:
+
     @allure.feature("TextBox")
     class TestTextBox:
+
         @pytest.mark.regression
         @allure.title("Check TextBox")
         def test_text_box(self, driver):
+            """
+            Шаги:
+            1. Открыть страницу 'https://demoqa.com/text-box'
+            2. Дождаться загрузку страницы
+            3. Заполнить поля
+            4. Кликнуть кнопку Submit
+            """
             text_box_page = TextBoxPage(driver, 'https://demoqa.com/text-box')
             text_box_page.open()
             full_name, email, current_address, permanent_address = text_box_page.fill_all_fields()
@@ -24,6 +33,7 @@ class TestElements:
 
     @allure.feature("CheckBox")
     class TestCheckBox:
+
         @pytest.mark.regression
         @allure.title("Check CheckBox")
         def test_check_box(self, driver):
