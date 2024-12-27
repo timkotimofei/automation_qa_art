@@ -25,3 +25,9 @@ class FramePageLocators:
     SECOND_FRAME = (By.ID, 'frame2')
     TEXT_SECOND_FRAME = (By.ID, 'sampleHeading')
 
+class NestedFramesPageLocators:
+    PARENT_FRAME = (By.ID, 'frame1')
+    PARENT_TEXT = (By.XPATH, "//body[contains(text(), 'Parent frame')]")
+    CHILD_FRAME = (By.XPATH, "//iframe[@srcdoc='<p>Child Iframe</p>']")
+    CHILD_TEXT = (By.XPATH, "//p[contains(text(), 'Child Iframe')]")
+

@@ -60,9 +60,14 @@ class BasePage:
     def switch_to_alert_window(self):
         return self.driver.switch_to.alert
 
+    def switch_to_frame(self, frame):
+        return self.driver.switch_to.frame(frame)
+
+
 
     def get_url_current_page(self):
         return self.driver.current_url
+
 
     '''
     Метод go_to_element выполняет прокрутку страницы до указанного элемента на веб-странице с помощью JavaScript. 

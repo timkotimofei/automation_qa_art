@@ -1,8 +1,11 @@
 import time
 import allure
 from faker.generator import random
+from websocket import frame_buffer
+
 from generator.generator import generated_person
-from locators.alerts_frame_windows_locators import BrowserWindowsPageLocators, AlertPageLocators, FramePageLocators
+from locators.alerts_frame_windows_locators import BrowserWindowsPageLocators, AlertPageLocators, FramePageLocators, \
+    NestedFramesPageLocators
 from pages.base_page import BasePage
 import logging
 
@@ -81,10 +84,39 @@ class AlertsPage(BasePage):
 class FramePage(BasePage):
     locators = FramePageLocators()
 
+    @allure.step('Check Frame 1')
     def check_frame1(self):
-        frame1 = self.element_is_present(self.locators.FIRST_FRAME)
-        width = frame1.get_attribute('width')
-        height = frame1.get_attribute('height')
+        self.remove_footer()
+        frame = self.element_is_present(self.locators.FIRST_FRAME)
+        width = frame.get_attribute('width')
+        height = frame.get_attribute('height')
+        self.switch_to_frame(frame)
+        text_frame = self.element_is_present(self.locators.TEXT_FIRST_FRAME).text
+        return width, height, text_frame
+
+    @allure.step('Check Frame 2')
+    def check_frame2(self):
+        self.remove_footer()
+        frame = self.element_is_present(self.locators.SECOND_FRAME)
+        width = frame.get_attribute('width')
+        height = frame.get_attribute('height')
+        self.switch_to_frame(frame)
+        text_frame = self.element_is_present(self.locators.TEXT_SECOND_FRAME).text
+        return width, height, text_frame
+
+class NestedFramePage(BasePage):
+    locators = NestedFramesPageLocators()
+
+    @allure.step('Check Nested Frames')
+    def check_nested_frames(self):
+        self.remove_footer()
+        frame_1 = self.element_is_present(self.locators.PARENT_FRAME)
+        self.switch_to_frame(frame_1)
+        text_frame_1 = self.element_is_present(self.locators.PARENT_TEXT).text
+        frame_2 = self.element_is_present(self.locators.CHILD_FRAME)
+        self.switch_to_frame(frame_2)
+        text_frame_2 = self.element_is_present(self.locators.CHILD_TEXT).text
+        return text_frame_1, text_frame_2
 
 
 

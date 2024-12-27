@@ -4,7 +4,7 @@ import pytest
 from selenium.webdriver.support.expected_conditions import alert_is_present
 
 from conftest import driver
-from pages.alerts_frame_windows_page import BrowserWindowsPage, AlertsPage, FramePage
+from pages.alerts_frame_windows_page import BrowserWindowsPage, AlertsPage, FramePage, NestedFramePage
 import logging
 
 @allure.suite("Alert Frame Window")
@@ -94,6 +94,18 @@ class TestAlertsFrameWindow:
             assert width == '100px', 'The value of width does not match'
             assert height == '100px', 'The value of height does not match'
             assert text_frame == 'This is a sample page', 'The text message does not match'
+
+    @allure.feature("Nested Page")
+    class TestNestedPage:
+
+        @pytest.mark.regression
+        @allure.title("Test Nested Frames")
+        def test_nested_frames(self, driver):
+            nested_frame_page = NestedFramePage(driver, 'https://demoqa.com/nestedframes')
+            nested_frame_page.open()
+            text_parent, text_child = nested_frame_page.check_nested_frames()
+            assert text_parent == 'Parent frame', 'Parent frame text does not reflect'
+            assert  text_child == 'Child Iframe', 'Child frame text does not reflect'
 
 
 
