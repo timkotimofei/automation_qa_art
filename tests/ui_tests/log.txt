@@ -1,0 +1,487 @@
+[DEBUG][2024-12-27 11:23:15,134][root] Prepare the browser
+[DEBUG][2024-12-27 11:23:16,453][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 11:23:25,828][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:10,308][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:11,226][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:15,864][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:15,952][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:16,347][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:21,563][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:21,650][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:22,055][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:29,798][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:29,883][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:30,280][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:35,893][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:35,978][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:36,378][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:41,025][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:41,106][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:41,438][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:46,544][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:46,626][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:47,016][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:27:56,391][root] The browser has been closed
+[DEBUG][2024-12-27 11:27:56,478][root] Prepare the browser
+[DEBUG][2024-12-27 11:27:56,811][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:01,539][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:01,621][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:02,005][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:05,891][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:05,976][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:06,360][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:12,541][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:12,628][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:12,969][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:16,737][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:16,822][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:17,209][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:20,822][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:20,906][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:21,305][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:24,918][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:25,000][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:25,392][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:27,954][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:28,034][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:28,363][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:32,696][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:32,784][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:33,172][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:40,362][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:40,448][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:40,845][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:49,916][root] The browser has been closed
+[DEBUG][2024-12-27 11:28:50,004][root] Prepare the browser
+[DEBUG][2024-12-27 11:28:50,336][root] The browser has been started in headless mode
+[DEBUG][2024-12-27 11:28:57,618][root] The browser has been closed
+[DEBUG][2024-12-27 14:57:09,074][root] Prepare the browser
+[DEBUG][2024-12-27 14:57:11,026][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 14:57:13,751][root] Start click to alert button
+[DEBUG][2024-12-27 14:57:13,751][root] Start searching elements on the page
+[DEBUG][2024-12-27 14:57:13,818][root] The allert button has been clicked
+[DEBUG][2024-12-27 14:57:13,961][root] The allert tab text has been pased
+[DEBUG][2024-12-27 14:57:13,963][root] The alert button has been clicked
+[DEBUG][2024-12-27 14:57:15,144][root] The browser has been closed
+[DEBUG][2024-12-27 14:59:47,584][root] Prepare the browser
+[DEBUG][2024-12-27 14:59:48,285][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 14:59:52,240][root] Start click to alert button
+[DEBUG][2024-12-27 14:59:52,240][root] Start searching elements on the page
+[DEBUG][2024-12-27 14:59:52,286][root] The allert button has been clicked
+[DEBUG][2024-12-27 14:59:52,435][root] The allert tab text has been pased
+[DEBUG][2024-12-27 14:59:52,437][root] The alert button has been clicked
+[DEBUG][2024-12-27 14:59:53,606][root] The browser has been closed
+[DEBUG][2024-12-27 15:05:27,107][root] Prepare the browser
+[DEBUG][2024-12-27 15:05:27,835][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:05:30,360][root] Start searching elements on the page
+[DEBUG][2024-12-27 15:05:30,409][root] The allert button has been clicked
+[DEBUG][2024-12-27 15:05:30,575][root] The allert tab text has been pased
+[DEBUG][2024-12-27 15:05:31,735][root] The browser has been closed
+[DEBUG][2024-12-27 15:06:20,536][root] Prepare the browser
+[DEBUG][2024-12-27 15:06:21,232][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:06:25,233][root] The browser has been closed
+[DEBUG][2024-12-27 15:06:58,543][root] Prepare the browser
+[DEBUG][2024-12-27 15:06:59,226][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:07:14,343][root] The browser has been closed
+[DEBUG][2024-12-27 15:08:26,138][root] Prepare the browser
+[DEBUG][2024-12-27 15:08:26,853][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:08:34,587][root] The browser has been closed
+[DEBUG][2024-12-27 15:09:02,635][root] Prepare the browser
+[DEBUG][2024-12-27 15:09:03,325][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:09:11,504][root] The browser has been closed
+[DEBUG][2024-12-27 15:10:32,590][root] Prepare the browser
+[DEBUG][2024-12-27 15:10:33,274][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:10:35,835][root] The browser has been closed
+[DEBUG][2024-12-27 15:11:03,208][root] Prepare the browser
+[DEBUG][2024-12-27 15:11:03,895][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:11:12,551][root] The browser has been closed
+[DEBUG][2024-12-27 15:12:49,807][root] Prepare the browser
+[DEBUG][2024-12-27 15:12:50,509][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 15:12:53,169][root] The browser has been closed
+[DEBUG][2024-12-27 16:21:18,404][root] Prepare the browser
+[DEBUG][2024-12-27 16:21:19,806][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:21:20,002][root] The browser has been closed
+[DEBUG][2024-12-27 16:27:00,793][root] Prepare the browser
+[DEBUG][2024-12-27 16:27:01,500][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:27:01,696][root] The browser has been closed
+[DEBUG][2024-12-27 16:27:43,881][root] Prepare the browser
+[DEBUG][2024-12-27 16:27:44,564][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:27:49,901][root] The browser has been closed
+[DEBUG][2024-12-27 16:28:13,333][root] Prepare the browser
+[DEBUG][2024-12-27 16:28:14,034][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:28:19,977][root] The browser has been closed
+[DEBUG][2024-12-27 16:29:20,760][root] Prepare the browser
+[DEBUG][2024-12-27 16:29:21,484][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:29:27,022][root] The browser has been closed
+[DEBUG][2024-12-27 16:34:31,299][root] Prepare the browser
+[DEBUG][2024-12-27 16:34:31,999][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 16:34:35,818][root] The browser has been closed
+[DEBUG][2024-12-27 17:15:08,250][root] Prepare the browser
+[DEBUG][2024-12-27 17:15:08,931][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:15:16,891][root] The browser has been closed
+[DEBUG][2024-12-27 17:27:56,618][root] Prepare the browser
+[DEBUG][2024-12-27 17:27:57,936][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:28:07,202][root] The browser has been closed
+[DEBUG][2024-12-27 17:29:30,333][root] Prepare the browser
+[DEBUG][2024-12-27 17:29:31,243][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:29:35,870][root] The browser has been closed
+[DEBUG][2024-12-27 17:36:43,703][root] Prepare the browser
+[DEBUG][2024-12-27 17:36:45,002][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:36:53,743][root] The browser has been closed
+[DEBUG][2024-12-27 17:37:16,802][root] Prepare the browser
+[DEBUG][2024-12-27 17:37:17,510][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:40:04,331][root] Prepare the browser
+[DEBUG][2024-12-27 17:40:05,007][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:40:14,031][root] The browser has been closed
+[DEBUG][2024-12-27 17:41:05,099][root] Prepare the browser
+[DEBUG][2024-12-27 17:41:05,791][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:41:14,206][root] The browser has been closed
+[DEBUG][2024-12-27 17:50:42,604][root] Prepare the browser
+[DEBUG][2024-12-27 17:50:43,591][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:50:51,736][root] The browser has been closed
+[DEBUG][2024-12-27 17:51:13,753][root] Prepare the browser
+[DEBUG][2024-12-27 17:51:14,480][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:51:24,391][root] The browser has been closed
+[DEBUG][2024-12-27 17:53:50,868][root] Prepare the browser
+[DEBUG][2024-12-27 17:53:51,580][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 17:53:54,830][root] The browser has been closed
+[DEBUG][2024-12-27 18:06:07,608][root] Prepare the browser
+[DEBUG][2024-12-27 18:06:08,295][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 18:06:13,489][root] The browser has been closed
+[DEBUG][2024-12-27 18:10:48,212][root] Prepare the browser
+[DEBUG][2024-12-27 18:10:48,933][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-27 18:10:58,307][root] The browser has been closed
+[DEBUG][2024-12-29 15:32:03,189][root] Prepare the browser
+[DEBUG][2024-12-29 15:32:04,566][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-29 15:32:14,169][root] The browser has been closed
+[DEBUG][2024-12-29 15:40:23,204][root] Prepare the browser
+[DEBUG][2024-12-29 15:40:24,237][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-29 15:40:39,089][root] The browser has been closed
+[DEBUG][2024-12-29 15:46:45,053][root] Prepare the browser
+[DEBUG][2024-12-29 15:46:45,757][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-29 15:46:50,052][root] The browser has been closed
+[DEBUG][2024-12-29 15:48:05,055][root] Prepare the browser
+[DEBUG][2024-12-29 15:48:05,751][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-29 15:48:10,417][root] The browser has been closed
+[DEBUG][2024-12-30 12:21:52,428][root] Prepare the browser
+[DEBUG][2024-12-30 12:21:53,831][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:22:03,140][root] The browser has been closed
+[DEBUG][2024-12-30 12:38:01,280][root] Prepare the browser
+[DEBUG][2024-12-30 12:38:02,413][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:38:11,717][root] The browser has been closed
+[DEBUG][2024-12-30 12:40:06,187][root] Prepare the browser
+[DEBUG][2024-12-30 12:40:06,894][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:40:16,087][root] The browser has been closed
+[DEBUG][2024-12-30 12:40:56,224][root] Prepare the browser
+[DEBUG][2024-12-30 12:40:56,932][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:41:04,928][root] The browser has been closed
+[DEBUG][2024-12-30 12:41:28,384][root] Prepare the browser
+[DEBUG][2024-12-30 12:41:29,088][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:41:37,339][root] The browser has been closed
+[DEBUG][2024-12-30 12:51:02,669][root] Prepare the browser
+[DEBUG][2024-12-30 12:51:03,376][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 12:51:16,584][root] The browser has been closed
+[DEBUG][2024-12-30 13:26:58,981][root] Prepare the browser
+[DEBUG][2024-12-30 13:27:00,112][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 13:27:05,163][root] The browser has been closed
+[DEBUG][2024-12-30 13:38:05,889][root] Prepare the browser
+[DEBUG][2024-12-30 13:38:06,598][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 13:38:15,214][root] The browser has been closed
+[DEBUG][2024-12-30 13:41:01,840][root] Prepare the browser
+[DEBUG][2024-12-30 13:41:02,531][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 13:41:11,349][root] The browser has been closed
+[DEBUG][2024-12-30 13:57:45,825][root] Prepare the browser
+[DEBUG][2024-12-30 13:57:46,984][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 13:58:00,102][root] The browser has been closed
+[DEBUG][2024-12-30 14:04:13,890][root] Prepare the browser
+[DEBUG][2024-12-30 14:04:14,611][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:04:19,031][root] The browser has been closed
+[DEBUG][2024-12-30 14:06:17,774][root] Prepare the browser
+[DEBUG][2024-12-30 14:06:18,496][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:06:22,867][root] The browser has been closed
+[DEBUG][2024-12-30 14:07:16,302][root] Prepare the browser
+[DEBUG][2024-12-30 14:07:16,991][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:07:22,193][root] The browser has been closed
+[DEBUG][2024-12-30 14:08:03,851][root] Prepare the browser
+[DEBUG][2024-12-30 14:08:04,548][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:08:08,598][root] The browser has been closed
+[DEBUG][2024-12-30 14:09:15,223][root] Prepare the browser
+[DEBUG][2024-12-30 14:09:15,925][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:09:20,329][root] The browser has been closed
+[DEBUG][2024-12-30 14:09:20,415][root] Prepare the browser
+[DEBUG][2024-12-30 14:09:21,107][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:09:24,528][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:07,658][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:08,399][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:16,941][root] Start click to alert button
+[DEBUG][2024-12-30 14:11:16,941][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:11:17,002][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:11:17,137][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:11:17,140][root] The alert button has been clicked
+[DEBUG][2024-12-30 14:11:18,315][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:18,399][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:19,057][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:19,590][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:11:26,392][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:11:26,534][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:11:27,716][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:27,799][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:28,472][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:31,262][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:31,342][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:32,009][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:40,799][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:40,888][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:41,547][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:44,394][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:44,472][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:45,116][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:53,499][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:53,601][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:54,204][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:11:56,722][root] The browser has been closed
+[DEBUG][2024-12-30 14:11:56,799][root] Prepare the browser
+[DEBUG][2024-12-30 14:11:57,454][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:12:00,719][root] The browser has been closed
+[DEBUG][2024-12-30 14:12:00,801][root] Prepare the browser
+[DEBUG][2024-12-30 14:12:01,470][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:12:08,962][root] The browser has been closed
+[DEBUG][2024-12-30 14:12:09,046][root] Prepare the browser
+[DEBUG][2024-12-30 14:12:09,700][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:12:14,231][root] The browser has been closed
+[DEBUG][2024-12-30 14:12:14,312][root] Prepare the browser
+[DEBUG][2024-12-30 14:12:14,911][root] The browser has been started in non-headless mode
+[DEBUG][2024-12-30 14:12:20,104][root] The browser has been closed
+[DEBUG][2024-12-30 14:19:32,778][root] Prepare the browser
+[DEBUG][2024-12-30 14:19:33,640][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:19:37,540][root] Start click to alert button
+[DEBUG][2024-12-30 14:19:37,541][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:19:37,605][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:19:37,762][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:19:37,765][root] The alert button has been clicked
+[DEBUG][2024-12-30 14:19:39,039][root] The browser has been closed
+[DEBUG][2024-12-30 14:19:39,118][root] Prepare the browser
+[DEBUG][2024-12-30 14:19:39,505][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:19:43,131][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:19:43,185][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:19:43,471][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:19:44,733][root] The browser has been closed
+[DEBUG][2024-12-30 14:19:44,816][root] Prepare the browser
+[DEBUG][2024-12-30 14:19:45,206][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:19:49,648][root] The browser has been closed
+[DEBUG][2024-12-30 14:19:49,728][root] Prepare the browser
+[DEBUG][2024-12-30 14:19:50,122][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:02,063][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:02,150][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:02,569][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:06,792][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:06,875][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:07,212][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:10,320][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:10,400][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:10,788][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:15,342][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:15,423][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:15,757][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:18,236][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:18,315][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:18,698][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:21,240][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:21,577][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:21,913][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:28,284][root] The browser has been closed
+[DEBUG][2024-12-30 14:20:28,370][root] Prepare the browser
+[DEBUG][2024-12-30 14:20:28,758][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:20:34,022][root] The browser has been closed
+[DEBUG][2024-12-30 14:23:44,865][root] Prepare the browser
+[DEBUG][2024-12-30 14:23:45,682][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:23:48,809][root] Start click to alert button
+[DEBUG][2024-12-30 14:23:48,810][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:23:48,854][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:23:48,998][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:23:49,000][root] The alert button has been clicked
+[DEBUG][2024-12-30 14:23:50,279][root] The browser has been closed
+[DEBUG][2024-12-30 14:23:50,359][root] Prepare the browser
+[DEBUG][2024-12-30 14:23:50,754][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:23:54,721][root] Start searching elements on the page
+[DEBUG][2024-12-30 14:23:54,776][root] The allert button has been clicked
+[DEBUG][2024-12-30 14:23:54,921][root] The allert tab text has been pased
+[DEBUG][2024-12-30 14:23:56,185][root] The browser has been closed
+[DEBUG][2024-12-30 14:23:56,268][root] Prepare the browser
+[DEBUG][2024-12-30 14:23:56,673][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:01,292][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:01,376][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:01,709][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:12,065][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:12,152][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:12,548][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:15,421][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:15,501][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:15,842][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:20,459][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:20,542][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:20,941][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:23,524][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:23,601][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:23,928][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:28,583][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:28,662][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:29,031][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:33,157][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:33,239][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:33,572][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:40,277][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:40,363][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:40,754][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:45,079][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:45,164][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:45,557][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:51,432][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:51,517][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:51,852][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:24:55,697][root] The browser has been closed
+[DEBUG][2024-12-30 14:24:55,780][root] Prepare the browser
+[DEBUG][2024-12-30 14:24:56,169][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:00,633][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:00,716][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:01,094][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:05,472][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:05,557][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:05,907][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:10,090][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:10,174][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:10,582][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:17,523][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:17,603][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:17,945][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:27,211][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:27,296][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:27,697][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:32,369][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:32,452][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:32,803][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:40,210][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:40,295][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:40,697][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:45,078][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:45,163][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:45,559][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:51,537][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:51,622][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:51,957][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:25:55,868][root] The browser has been closed
+[DEBUG][2024-12-30 14:25:55,951][root] Prepare the browser
+[DEBUG][2024-12-30 14:25:56,341][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:26:01,356][root] The browser has been closed
+[DEBUG][2024-12-30 14:26:01,444][root] Prepare the browser
+[DEBUG][2024-12-30 14:26:01,777][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:26:04,334][root] The browser has been closed
+[DEBUG][2024-12-30 14:26:04,414][root] Prepare the browser
+[DEBUG][2024-12-30 14:26:04,811][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:26:08,971][root] The browser has been closed
+[DEBUG][2024-12-30 14:26:09,050][root] Prepare the browser
+[DEBUG][2024-12-30 14:26:09,379][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:26:16,568][root] The browser has been closed
+[DEBUG][2024-12-30 14:26:16,652][root] Prepare the browser
+[DEBUG][2024-12-30 14:26:17,031][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:27:42,223][root] The browser has been closed
+[DEBUG][2024-12-30 14:27:42,323][root] Prepare the browser
+[DEBUG][2024-12-30 14:27:43,164][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:27:50,307][root] The browser has been closed
+[DEBUG][2024-12-30 14:27:50,392][root] Prepare the browser
+[DEBUG][2024-12-30 14:27:50,781][root] The browser has been started in headless mode
+[DEBUG][2024-12-30 14:27:56,955][root] The browser has been closed
+[DEBUG][2025-01-09 19:16:11,312][root] Prepare the browser
+[DEBUG][2025-01-09 19:16:19,554][root] The browser has been started in headless mode
+[DEBUG][2025-01-09 19:16:26,989][root] The browser has been closed
+[DEBUG][2025-01-09 19:16:46,602][root] Prepare the browser
+[DEBUG][2025-01-09 19:16:47,437][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 19:16:52,215][root] The browser has been closed
+[DEBUG][2025-01-09 19:20:27,059][root] Prepare the browser
+[DEBUG][2025-01-09 19:20:27,945][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 19:20:32,143][root] The browser has been closed
+[DEBUG][2025-01-09 19:21:22,090][root] Prepare the browser
+[DEBUG][2025-01-09 19:21:22,918][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 19:21:27,503][root] The browser has been closed
+[DEBUG][2025-01-09 19:21:27,584][root] Prepare the browser
+[DEBUG][2025-01-09 19:21:28,379][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 19:21:32,603][root] The browser has been closed
+[DEBUG][2025-01-09 20:31:18,669][root] Prepare the browser
+[DEBUG][2025-01-09 20:31:20,288][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:31:23,374][root] The browser has been closed
+[DEBUG][2025-01-09 20:31:47,957][root] Prepare the browser
+[DEBUG][2025-01-09 20:31:48,832][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:31:54,414][root] The browser has been closed
+[DEBUG][2025-01-09 20:34:27,034][root] Prepare the browser
+[DEBUG][2025-01-09 20:34:28,373][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:34:30,958][root] The browser has been closed
+[DEBUG][2025-01-09 20:35:02,279][root] Prepare the browser
+[DEBUG][2025-01-09 20:35:03,135][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:35:06,874][root] The browser has been closed
+[DEBUG][2025-01-09 20:35:49,898][root] Prepare the browser
+[DEBUG][2025-01-09 20:35:50,773][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:35:54,732][root] The browser has been closed
+[DEBUG][2025-01-09 20:36:14,428][root] Prepare the browser
+[DEBUG][2025-01-09 20:36:15,286][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:36:21,335][root] The browser has been closed
+[DEBUG][2025-01-09 20:39:12,992][root] Prepare the browser
+[DEBUG][2025-01-09 20:39:14,269][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:39:20,517][root] The browser has been closed
+[DEBUG][2025-01-09 20:40:51,732][root] Prepare the browser
+[DEBUG][2025-01-09 20:40:52,917][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-09 20:40:59,362][root] The browser has been closed
+[DEBUG][2025-01-10 19:12:07,883][root] Prepare the browser
+[DEBUG][2025-01-10 19:12:09,307][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:12:15,499][root] The browser has been closed
+[DEBUG][2025-01-10 19:14:28,613][root] Prepare the browser
+[DEBUG][2025-01-10 19:14:29,321][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:14:35,057][root] The browser has been closed
+[DEBUG][2025-01-10 19:14:50,839][root] Prepare the browser
+[DEBUG][2025-01-10 19:14:51,551][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:14:57,120][root] The browser has been closed
+[DEBUG][2025-01-10 19:23:06,714][root] Prepare the browser
+[DEBUG][2025-01-10 19:23:07,432][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:23:12,947][root] The browser has been closed
+[DEBUG][2025-01-10 19:28:22,117][root] Prepare the browser
+[DEBUG][2025-01-10 19:28:22,818][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:28:25,660][root] The browser has been closed
+[DEBUG][2025-01-10 19:31:49,435][root] Prepare the browser
+[DEBUG][2025-01-10 19:31:50,155][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:31:54,449][root] The browser has been closed
+[DEBUG][2025-01-10 19:32:30,741][root] Prepare the browser
+[DEBUG][2025-01-10 19:32:31,453][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:38:16,873][root] Prepare the browser
+[DEBUG][2025-01-10 19:38:17,588][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:38:20,872][root] The browser has been closed
+[DEBUG][2025-01-10 19:42:16,193][root] Prepare the browser
+[DEBUG][2025-01-10 19:42:16,919][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:42:19,598][root] The browser has been closed
+[DEBUG][2025-01-10 19:48:50,021][root] Prepare the browser
+[DEBUG][2025-01-10 19:48:50,892][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:48:53,321][root] The browser has been closed
+[DEBUG][2025-01-10 19:54:09,006][root] Prepare the browser
+[DEBUG][2025-01-10 19:54:10,238][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 19:54:14,012][root] The browser has been closed
+[DEBUG][2025-01-10 20:10:18,034][root] Prepare the browser
+[DEBUG][2025-01-10 20:10:19,246][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:10:23,058][root] The browser has been closed
+[DEBUG][2025-01-10 20:12:50,221][root] Prepare the browser
+[DEBUG][2025-01-10 20:12:51,927][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:12:55,881][root] The browser has been closed
+[DEBUG][2025-01-10 20:20:00,709][root] Prepare the browser
+[DEBUG][2025-01-10 20:20:01,921][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:20:05,717][root] The browser has been closed
+[DEBUG][2025-01-10 20:20:18,547][root] Prepare the browser
+[DEBUG][2025-01-10 20:20:19,298][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:20:23,014][root] The browser has been closed
+[DEBUG][2025-01-10 20:20:45,003][root] Prepare the browser
+[DEBUG][2025-01-10 20:20:45,722][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:20:49,888][root] The browser has been closed
+[INFO][2025-01-10 20:31:24,879][root] Prepare to printing
+[INFO][2025-01-10 20:31:24,879][root] After print preparations
+[DEBUG][2025-01-10 20:31:24,880][root] Prepare the browser
+[DEBUG][2025-01-10 20:31:26,151][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:31:30,055][root] The browser has been closed
+[DEBUG][2025-01-10 20:42:56,668][root] Prepare the browser
+[DEBUG][2025-01-10 20:42:57,933][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-10 20:43:14,448][root] The browser has been closed
