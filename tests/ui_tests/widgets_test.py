@@ -37,3 +37,6 @@ class TestWidgets:
             assert 'Lorem Ipsum' in second_content, 'The second content does not match'
             assert third_title == 'Why do we use it?', 'The third title does not match'
             assert 'Lorem Ipsum' in third_content, 'The third content does not match'
+
+        def test_accordian_one_close_another_open(self, driver):
+            pass
