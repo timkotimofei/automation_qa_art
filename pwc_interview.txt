@@ -1,0 +1,42 @@
+PwC (аудит, консалтинг, таксы, аккаунтинг).
+152 - страны.
+327 000 - сотрудников.
+
+Интервью:
+
+S - ситуация
+T - таргет
+A - акшин - действие
+R - результат
+
+The company  I currently work for is called LASTH, It is stands for Los Altos Software Testing House.
+The application I am currently working on is called Sugaring Factory it started in 2019.
+Basically it is an e-commerce web application with IOS and Andriod mobile version to come soon.
+The main purpose of application is for wholesale and retail selling of the company products.
+We have two weeks sprints and scrum team 8 - 10 members.
+Technology stack consist of Frontend (React JS) snd BackEnd (PHP and SQL) and AWS as a hosting.
+
+Situation:
+On the project, regression testing was taking too much time, and the manual tester struggled to handle the workload.
+There were approximately 500–600 API tests and 250–300 UI tests, which significantly increased the burden, especially
+before releases. This slowed down the testing process and raised the risk of missing bugs.
+
+Task:
+I was invited  to optimize the testing process by accelerating it and reducing dependency on manual efforts.
+My primary goal was to develop an automated testing framework covering both API and UI tests and integrate it into a
+CI/CD pipeline for automatic test execution.
+
+Action:
+I developed a test automation framework using Pytest, Selenium, and Requests, leveraging the Page Object Model approach
+ to ensure maintainability and scalability. Additionally, I implemented a CI/CD pipeline using GitLab CI,
+ configuring the automatic execution of tests within Docker containers. Docker provided an isolated environment,
+ ensuring stability and consistency in test results. Containers were created for each test run and cleaned up afterward,
+ while test reports were stored on the GitLab server. This approach eliminated the need for manual test environment
+ setup, significantly speeding up and simplifying the testing process.
+
+Result:
+The automation reduced regression testing time from several days to just a few hours. The CI/CD process enabled
+seamless integration of testing with development, allowing for faster detection and resolution of bugs.
+Tests now run automatically with each code update, providing detailed reports that improved release quality.
+This freed up the manual tester from routine tasks, allowing them to focus on testing new features.
+
