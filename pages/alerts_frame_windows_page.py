@@ -5,7 +5,7 @@ from websocket import frame_buffer
 
 from generator.generator import generated_person
 from locators.alerts_frame_windows_locators import BrowserWindowsPageLocators, AlertPageLocators, FramePageLocators, \
-    NestedFramesPageLocators
+    NestedFramesPageLocators, ModalDialogsPageLocators
 from pages.base_page import BasePage
 import logging
 
@@ -117,6 +117,54 @@ class NestedFramePage(BasePage):
         self.switch_to_frame(frame_2)
         text_frame_2 = self.element_is_present(self.locators.CHILD_TEXT).text
         return text_frame_1, text_frame_2
+
+
+class ModalDialogsPage(BasePage):
+    locators = ModalDialogsPageLocators()
+
+    @allure.step('Check Small Modal Dialogs')
+    def check_small_modal_dialogs(self):
+        self.remove_footer()
+        with allure.step('Click the button Small Modal'):
+            self.element_is_visible(self.locators.SMALL_MODAL_BUTTON).click()
+        with allure.step('Verify title text'):
+            title_small_text = self.element_is_visible(self.locators.SMALL_MODAL_TITLE).text
+        with allure.step('Verify content modal text'):
+            body_small_text = self.element_is_visible(self.locators.SMALL_MODAL_BODY).text
+        with allure.step('Click the exit "x" button'):
+            self.element_is_visible(self.locators.SMALL_MODAL_EXIT_BUTTON).click()
+        with allure.step('Click the button Small Modal'):
+            self.element_is_visible(self.locators.SMALL_MODAL_BUTTON).click()
+        with allure.step('Click the "Close" button'):
+            self.element_is_visible(self.locators.SMALL_MODAL_CLOSE_BUTTON).click()
+        with allure.step('Click the button Small Modal'):
+            self.element_is_visible(self.locators.SMALL_MODAL_BUTTON).click()
+        with allure.step('Click outside the Small Modal (Overlay)'):
+            self.element_is_present(self.locators.OVERLAY).click()
+        return title_small_text, body_small_text
+
+    @allure.step('Check Large Modal Dialogs')
+    def check_large_modal_dialogs(self):
+        self.remove_footer()
+        with allure.step('Click the button Large Modal'):
+            self.element_is_visible(self.locators.LARGE_MODAL_BUTTON).click()
+        with allure.step('Verify title text'):
+            title_large_text = self.element_is_visible(self.locators.LARGE_MODAL_TITLE).text
+        with allure.step('Verify content modal text'):
+            body_large_text = self.element_is_visible(self.locators.LARGE_MODAL_BODY).text
+        with allure.step('Click the exit "x" button'):
+            self.element_is_visible(self.locators.LARGE_MODAL_EXIT_BUTTON).click()
+        with allure.step('Click the button Large Modal'):
+            self.element_is_visible(self.locators.LARGE_MODAL_BUTTON).click()
+        with allure.step('Click the "Close" button'):
+            self.element_is_visible(self.locators.LARGE_MODAL_CLOSE_BUTTON).click()
+        with allure.step('Click the button Large Modal'):
+            self.element_is_visible(self.locators.LARGE_MODAL_BUTTON).click()
+        with allure.step('Click outside the Large Modal (Overlay)'):
+            self.element_is_present(self.locators.OVERLAY).click()
+        return title_large_text, body_large_text
+
+
 
 
 

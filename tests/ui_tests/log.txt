@@ -485,3 +485,6 @@
 [DEBUG][2025-01-10 20:42:56,668][root] Prepare the browser
 [DEBUG][2025-01-10 20:42:57,933][root] The browser has been started in non-headless mode
 [DEBUG][2025-01-10 20:43:14,448][root] The browser has been closed
+[DEBUG][2025-01-12 13:51:02,396][root] Prepare the browser
+[DEBUG][2025-01-12 13:51:04,334][root] The browser has been started in non-headless mode
+[DEBUG][2025-01-12 13:51:09,865][root] The browser has been closed

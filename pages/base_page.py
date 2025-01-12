@@ -1,7 +1,6 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
-
 from conftest import driver
 
 
@@ -19,6 +18,10 @@ class BasePage:
 
 # Этот код будет часто повторяться и нам потом достаточно просто вызвать element_is_visible(self, locator, timeout=5)
     def element_is_visible(self, locator, timeout=5):
+        return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))
+
+    def element_is_visible_with_go_to_element(self, locator, timeout=5):
+        self.go_to_element(self.element_is_present(locator))
         return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))
 
     def elements_are_visible(self, locator, timeout=5):
@@ -56,14 +59,11 @@ class BasePage:
     def switch_to_window_custom_tab(self,number):
         self.driver.switch_to.window(self.driver.window_handles[number])
 
-
     def switch_to_alert_window(self):
         return self.driver.switch_to.alert
 
     def switch_to_frame(self, frame):
         return self.driver.switch_to.frame(frame)
-
-
 
     def get_url_current_page(self):
         return self.driver.current_url
@@ -84,5 +84,4 @@ class BasePage:
 	Он автоматически прокручивает страницу, чтобы сделать элемент видимым в области просмотра.
 	•	Когда вы вызываете element.scrollIntoView(), браузер перемещает страницу таким образом, чтобы элемент, 
 	который соответствует переменной element, оказался в видимой части экрана.
-
     '''

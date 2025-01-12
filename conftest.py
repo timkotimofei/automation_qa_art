@@ -32,7 +32,7 @@ def driver():
     logging.debug('Prepare the browser')
 
     # Проверяем переменную окружения HEADLESS
-    is_headless = getenv('HEADLESS', 'true').lower() == 'true'     # чтобы активировать поменяй на true
+    is_headless = getenv('HEADLESS', 'true').lower() == 'false'     # чтобы активировать поменяй на true
 
     # Настройки ChromeOptions
     chrome_options = Options()

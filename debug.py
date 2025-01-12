@@ -11,6 +11,8 @@
 # data2 = str(List2).replace(' ','').lower()
 #
 # assert data1 == data2
+from zoneinfo import reset_tzpath
+
 
 #
 # import base64
@@ -26,3 +28,27 @@
 #         print(5/i)
 #     except ZeroDivisionError:
 #         print('было деление на ноль')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

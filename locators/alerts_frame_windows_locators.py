@@ -31,3 +31,18 @@ class NestedFramesPageLocators:
     CHILD_FRAME = (By.XPATH, "//iframe[@srcdoc='<p>Child Iframe</p>']")
     CHILD_TEXT = (By.XPATH, "//p[contains(text(), 'Child Iframe')]")
 
+class ModalDialogsPageLocators:
+    SMALL_MODAL_BUTTON = (By.ID, "showSmallModal")
+    SMALL_MODAL_TITLE = (By.ID, "example-modal-sizes-title-sm")
+    SMALL_MODAL_BODY = (By.XPATH, "//div[@class='modal-body']")
+    OVERLAY = (By.XPATH, "//div[@role='dialog']")
+    SMALL_MODAL_EXIT_BUTTON = (By.XPATH, "//span[contains(text(), '×')]")
+    SMALL_MODAL_CLOSE_BUTTON = (By.ID, "closeSmallModal")
+
+    LARGE_MODAL_BUTTON = (By.ID, "showLargeModal")
+    LARGE_MODAL_TITLE = (By.ID, "example-modal-sizes-title-lg")
+    LARGE_MODAL_BODY = (By.XPATH, "//p[contains(text(), 'Lorem Ipsum')]")
+    LARGE_MODAL_EXIT_BUTTON = (By.XPATH, "//span[contains(text(), '×')]")
+    LARGE_MODAL_CLOSE_BUTTON = (By.ID, "closeLargeModal")
+
+

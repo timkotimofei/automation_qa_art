@@ -1,0 +1,33 @@
+project/
+├── README.md                # Описание проекта
+├── requirements.txt         # Зависимости проекта
+├── pytest.ini               # Конфигурация pytest
+├── conftest.py              # Общие фикстуры и настройки
+├── logging.ini              # Конфигурация для логирования
+├── data/                    # Данные, используемые в тестах
+│   ├── urls.py              # URL-адреса
+│   ├── data.py              # Другие данные
+├── locators/                # Локаторы элементов для UI тестов
+│   ├── alerts_frame_windows_locators.py
+│   ├── elements_page_locators.py
+│   ├── form_page_locators.py
+├── pages/                   # Page Object классы для UI тестов
+│   ├── base_page.py         # Базовый класс для всех страниц
+│   ├── alerts_frame_windows_page.py
+│   ├── elements_page.py
+│   ├── form_page.py
+├── tests/                   # Папка с тестами
+│   ├── ui/                  # UI тесты
+│   │   ├── alerts_frame_windows_test.py
+│   │   ├── elements_test.py
+│   │   ├── form_test.py
+│   ├── api/                 # API тесты
+│   │   ├── test_user_api.py
+│   │   ├── test_product_api.py
+│   │   ├── test_auth_api.py
+│   └── common/              # Общие утилиты для тестов
+│       ├── utils.py
+│       ├── custom_assertions.py
+├── generator/               # Генерация данных
+│   ├── generator.py
+└── .gitignore               # Файлы и папки, исключенные из контроля версий

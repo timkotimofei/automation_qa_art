@@ -3,6 +3,7 @@ class Urls:
     class Web:
         BASE = "https://demoqa.com"
 
+        # Elements
         TEXT_BOX = f"{BASE}/text-box"
         CHECK_BOX = f"{BASE}/checkbox"
         RADIO_BUTTON = f"{BASE}/radio-button"
@@ -12,20 +13,33 @@ class Urls:
         CREATED = f"{BASE}/created"
         BAD_REQUEST = f"{BASE}/bad-request"
         UPLOAD_DOWNLOAD = f"{BASE}/upload-download"
-        DYNAMIC_PROPERTIES = f'{BASE}/dynamic-properties'
+        DYNAMIC_PROPERTIES = f"{BASE}/dynamic-properties"
+
+        # Forms
+
+        # Alert, Frame,  Windows
+        BROWSER_WINDOWS = f"{BASE}/browser-windows"
+        ALERTS = f"{BASE}/alerts"
+        FRAMES = f"{BASE}/frames"
+        NESTED_FRAMES = f"{BASE}/nestedframes"
+        MODAL_DIALOGS = f"{BASE}/modal-dialogs"
 
 
 
+        # Widgets
 
+        ACCORDIAN = f"{BASE}/accordian"
 
 
 
     class API:
-        BASE = "https://demoqa.com/swagger"
-        GET_USER = f"{BASE}/user"
+        BASE = "https://demoqa.com/Account/v1"
+        AUTHORIZED = f"{BASE}/Authorized"
 
 
 
 
-# print(Urls.Web.LOGIN)
-# print(Urls.API.GET_USER)
+
+
+# print(Urls.Web.ACCORDIAN)
+# print(Urls.API.POST_ACCOUNT)
