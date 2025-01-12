@@ -14,3 +14,5 @@ def test_regression_example():
 
 # pytest -m smoke
 # pytest -m regression
+# pytest -m regression tests/ui_tests - запуск в новой организации тестов
+

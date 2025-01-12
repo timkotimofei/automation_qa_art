@@ -1,2 +1,0 @@
-[32mINFO    [0m root:test_example.py:5 Prepare to printing
-[32mINFO    [0m root:test_example.py:7 After print preparations

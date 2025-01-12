@@ -37,3 +37,20 @@ class TestWidgets:
             assert 'Lorem Ipsum' in second_content, 'The second content does not match'
             assert third_title == 'Why do we use it?', 'The third title does not match'
             assert 'Lorem Ipsum' in third_content, 'The third content does not match'
+
+
+        @pytest.mark.regression
+        @allure.title("Is accordian only one open at the time")
+        def test_accordian_one_close_another_open(self, driver):
+            """
+            Steps:
+            1. Open the page 'https://demoqa.com/accordian'
+            2. Verify first accordian element is open
+            3. Verify second and third accordian elements are close
+            4. Click third accordian element
+            5. Verify third accordian element is open
+            6. Verify first and second accordian elements are close
+
+            """
+
+            pass
