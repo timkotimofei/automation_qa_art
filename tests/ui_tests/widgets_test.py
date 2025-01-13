@@ -46,11 +46,38 @@ class TestWidgets:
             Steps:
             1. Open the page 'https://demoqa.com/accordian'
             2. Verify first accordian element is open
-            3. Verify second and third accordian elements are close
-            4. Click third accordian element
-            5. Verify third accordian element is open
-            6. Verify first and second accordian elements are close
+            3. Verify second and third accordian elements are close (True, False, False)
+            4. Click first accordian element
+            5. Verify first and second and third accordian elements are close (False, False, False)
+            6. Click second accordian element
+            7. Verify first and third accordian elements are close (False, True, False)
+            8. Click third accordian element
+            9. Verify first and third accordian elements are close (False, False, True)
 
             """
+            accordian_page = AccordianPage(driver, Urls.Web.ACCORDIAN)
+            accordian_page.open()
+            first_opened = accordian_page.check_which_accordian_open_close()
+            accordian_page.click_custom_accordian_element('first')
+            time.sleep(1)
+            after_click = accordian_page.check_which_accordian_open_close()
+            assert first_opened == (True, False, False), 'First not open'
+            assert after_click == (False, False, False), 'All not closed, someone is open'
 
-            pass
+            accordian_page.click_custom_accordian_element('second')
+            time.sleep(1)
+            after_click = accordian_page.check_which_accordian_open_close()
+            assert after_click == (False, True, False), 'Second is not opened'
+
+            accordian_page.click_custom_accordian_element('third')
+            time.sleep(1)
+            after_click = accordian_page.check_which_accordian_open_close()
+            assert after_click == (False, False, True), 'Third is not opened'
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+[35mDEBUG   [0m root:conftest.py:32 Prepare the browser
+[35mDEBUG   [0m root:conftest.py:49 The browser has been started in headless mode
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:18 Start searching elements on the page
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:20 The allert button has been clicked
+[35mDEBUG   [0m root:alerts_frame_windows_page.py:23 The allert tab text has been pased
+[35mDEBUG   [0m root:conftest.py:56 The browser has been closed
