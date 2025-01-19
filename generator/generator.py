@@ -1,6 +1,6 @@
 from faker.generator import random
 import os
-from data.data import Person
+from data.data import Person, Color
 from faker import Faker
 
 
@@ -106,3 +106,43 @@ def generate_city(state):
     return city[state][random.randint(1,2)]
 
 # print(generate_city("Uttar Pradesh"))py
+
+
+def generate_color():
+    colors= {
+        1: "Blue",
+        2: "Green",
+        3: "Yellow",
+        4: "Purple",
+        5: "Black",
+        6: "White",
+        7: "Voilet",
+        8: "Indigo",
+        9: "Magenta",
+        10: "Aqua"
+        }
+
+    return colors[random.randint(1,10)]
+
+# print(generate_color())
+# col = {generate_color() for i in range(1,7)}
+# print(col)
+
+
+def true_generator_color(num):
+    color_name = ["Red", "Green", "Yellow", "Purple", "Black", "White", "Voilet", "Indigo", "Magenta", "Aqua"]
+    color_name = random.sample(color_name,num)
+    for i in color_name:
+        yield i
+
+# debug_gen = true_generator_color(3)
+# print(next(debug_gen))
+# print(next(debug_gen))
+# print(next(debug_gen))
+
+
+
+
+
+
+

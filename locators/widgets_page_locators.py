@@ -12,3 +12,10 @@ class AccordianPageLocators:
     SECTION_THIRD = (By.XPATH, "//div[contains(text(), 'Why do we use it?')]")
     SECTION_CONTENT_THIRD = (By.CSS_SELECTOR, "div[id='section3Content']")
 
+class AutoCompletePageLocators:
+
+    MULTI_INPUT = (By.ID, "autoCompleteMultipleInput")
+
+    MULTI_VALUE = (By.CSS_SELECTOR, "div[class='css-1rhbuit-multiValue auto-complete__multi-value']")
+    MULTI_VALUE_REMOVE = (By.CSS_SELECTOR, "div[class='css-1rhbuit-multiValue auto-complete__multi-value'] svg path")
+

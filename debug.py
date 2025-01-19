@@ -11,8 +11,6 @@
 # data2 = str(List2).replace(' ','').lower()
 #
 # assert data1 == data2
-from zoneinfo import reset_tzpath
-
 
 #
 # import base64
@@ -30,8 +28,20 @@ from zoneinfo import reset_tzpath
 #         print('было деление на ноль')
 
 
+color_name = ["Red", "Green", "Yellow", "Purple", "Black", "White", "Voilet", "Indigo", "Magenta", "Aqua"]
+
+def generator_color():
+    for i in color_name:
+        yield i
 
 
+
+# print(random.sample(color_name,5))
+
+gen_exempal = generator_color()
+print(next(gen_exempal))
+print(next(gen_exempal))
+print(next(gen_exempal))
 
 
 

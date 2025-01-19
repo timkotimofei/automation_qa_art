@@ -1,9 +1,11 @@
 import time
 import allure
 import pytest
+from faker.generator import random
 
 from data.urls import Urls
-from pages.widgets_page import AccordianPage
+from pages.widgets_page import AccordianPage, AutoCompletePage
+
 
 @allure.suite("Widgets")
 class TestWidgets:
@@ -11,7 +13,7 @@ class TestWidgets:
     class TestAccordianPage:
 
         @pytest.mark.regression
-        @allure.title("Accordian first, second, third")
+        @allure.title("Check accordian first, second, third")
         def test_accordian(self, driver):
             """
             Steps:
@@ -40,7 +42,7 @@ class TestWidgets:
 
 
         @pytest.mark.regression
-        @allure.title("Is accordian only one open at the time")
+        @allure.title("Check is accordian only one open at the time")
         def test_accordian_one_close_another_open(self, driver):
             """
             Steps:
@@ -73,6 +75,53 @@ class TestWidgets:
             time.sleep(1)
             after_click = accordian_page.check_which_accordian_open_close()
             assert after_click == (False, False, True), 'Third is not opened'
+
+
+    @allure.feature('Autocomplete page')
+    class TestAutoCompletePage:
+
+        @pytest.mark.regression
+        @allure.title("Check autocomplete is filled_1")
+        def test_fill_multi_autocomplete1(self, driver):
+            autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
+            autocomplete_page.open()
+            colors_send = autocomplete_page.send_data_in_autocomplete_field()
+            colors_in_field = autocomplete_page.check_color_in_multi()
+            # print(colors_send)
+            # print(colors_in_field)
+            assert  colors_in_field == colors_send, 'The colors in field does not match sended colors'
+            time.sleep(3)
+
+
+        @pytest.mark.regression
+        @allure.title("Check autocomplete is filled_2")
+        def test_fill_multi_autocomplete2(self, driver):
+            autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
+            autocomplete_page.open()
+            col_send = autocomplete_page.send_data_in_autocomplete_filed_2(random.randint(1,10))
+            col_from_field = autocomplete_page.check_color_in_multi()
+            # print(col_send)
+            # print(col_from_field)
+            assert col_send == col_from_field, 'The colors in field does not match sended colors'
+
+
+        @pytest.mark.regression
+        @allure.title("Check delete one item from autocomplete field")
+        def test_delete_some_from_field(self, driver):
+            autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
+            autocomplete_page.open()
+            col_send = autocomplete_page.send_data_in_autocomplete_filed_2(random.randint(1, 10))
+            before_col_from_field = autocomplete_page.check_color_in_multi()
+            autocomplete_page.remove_value_from_multi()
+            after_col_from_field = autocomplete_page.check_color_in_multi()
+            print(col_send)
+            print(before_col_from_field)
+            print(after_col_from_field)
+            time.sleep(3)
+
+
+
+
 
 
 

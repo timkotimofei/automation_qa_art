@@ -29,6 +29,7 @@ class Urls:
         # Widgets
 
         ACCORDIAN = f"{BASE}/accordian"
+        AUTO_COMPLETE = f"{BASE}/auto-complete"
 
 
 

@@ -1,6 +1,13 @@
+import time
+import random
+
+
 import allure
-from locators.widgets_page_locators import AccordianPageLocators
+from selenium.webdriver import Keys
+
+from locators.widgets_page_locators import AccordianPageLocators, AutoCompletePageLocators
 from pages.base_page import BasePage
+from generator.generator import generate_color, true_generator_color
 
 
 class AccordianPage(BasePage):
@@ -35,6 +42,41 @@ class AccordianPage(BasePage):
     @allure.step('Click custom accordian element')
     def click_custom_accordian_element(self, accordian_num):
         self.element_is_visible_with_go_to_element(self.accordian[accordian_num]['title']).click()
+
+
+class AutoCompletePage(BasePage):
+
+    locators = AutoCompletePageLocators()
+
+    def send_data_in_autocomplete_field(self):
+        autocomplete = self.element_is_visible(self.locators.MULTI_INPUT)
+        colors = {generate_color() for i in range(random.randint(1,8))}
+        for i in colors:
+            autocomplete.send_keys(i)
+            time.sleep(1)
+            autocomplete.send_keys(Keys.ENTER)
+        return list(colors)
+
+    def send_data_in_autocomplete_filed_2(self, n):
+        autocomplete = self.element_is_visible(self.locators.MULTI_INPUT)
+        colors = true_generator_color(n)
+        list_for_check_in = []
+        for i in range(1, n+1):
+            value_color = next(colors)
+            autocomplete.send_keys(value_color)
+            list_for_check_in.append(value_color)
+            time.sleep(1)
+            autocomplete.send_keys(Keys.ENTER)
+        return list_for_check_in
+
+    def remove_value_from_multi(self):
+        remove_buttons = self.elements_are_visible(self.locators.MULTI_VALUE_REMOVE)
+        remove_buttons[1].click()
+
+    def check_color_in_multi(self):
+        multi_value = self.elements_are_visible(self.locators.MULTI_VALUE)
+        multi_value_text = [i.text for i in multi_value]
+        return multi_value_text
 
 
 
