@@ -114,10 +114,28 @@ class TestWidgets:
             before_col_from_field = autocomplete_page.check_color_in_multi()
             autocomplete_page.remove_value_from_multi()
             after_col_from_field = autocomplete_page.check_color_in_multi()
+            # print(col_send)
+            # print(before_col_from_field)
+            # print(after_col_from_field)
+            assert col_send == before_col_from_field , 'The send colors does not match with typed colors'
+            assert len(col_send) - 1 == len(after_col_from_field), 'The color was not delete'
+
+        @pytest.mark.regression
+        @allure.title("Check delete one item from autocomplete field")
+        def test_delete_all_items(self, driver):
+            autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
+            autocomplete_page.open()
+            col_send = autocomplete_page.send_data_in_autocomplete_filed_2(random.randint(1, 10))
+            before_col_from_field = autocomplete_page.check_color_in_multi()
+            autocomplete_page.remove_all_values_multu()
             print(col_send)
             print(before_col_from_field)
-            print(after_col_from_field)
             time.sleep(3)
+
+
+
+
+
 
 
 

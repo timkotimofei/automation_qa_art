@@ -1,1 +1,0 @@
-{"name": "Check autocomplete is filled", "status": "passed", "start": 1736905041702, "stop": 1736905123002, "uuid": "6ab1cfa7-3616-4fcd-8a70-b76b0fc982f6", "testCaseId": "6696344f62aef14e6fb4ef59ecbe0246", "fullName": "tests.ui_tests.widgets_test.TestAutoCompletePage#test_fill_multi_autocomplete"}

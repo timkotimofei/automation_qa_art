@@ -266,5 +266,11 @@ allure serve allure_results - запуск аллюре
 остановить ctrl+с
 rm -rf allure_results    - удаление алл
 
+
+# pytest -m smoke
+# pytest -m regression
+# pytest -m regression tests/ui_tests - запуск в новой организации тестов
+
+
 pip freeze > ../requirements.txt     - заморозить с созданием нового файла
 pip freeze >> ../requirements.txt     - заморозить с дозаписыванием в сущесвтующий файл

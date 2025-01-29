@@ -1,6 +1,6 @@
 import time
 import random
-
+from os import remove
 
 import allure
 from selenium.webdriver import Keys
@@ -77,6 +77,11 @@ class AutoCompletePage(BasePage):
         multi_value = self.elements_are_visible(self.locators.MULTI_VALUE)
         multi_value_text = [i.text for i in multi_value]
         return multi_value_text
+
+    def remove_all_values_multu(self):
+        remove_all = self.element_is_visible(self.locators.MULTI_VALUE_REMOVE_ALL)
+        remove_all.click()
+
 
 
 

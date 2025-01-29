@@ -18,4 +18,6 @@ class AutoCompletePageLocators:
 
     MULTI_VALUE = (By.CSS_SELECTOR, "div[class='css-1rhbuit-multiValue auto-complete__multi-value']")
     MULTI_VALUE_REMOVE = (By.CSS_SELECTOR, "div[class='css-1rhbuit-multiValue auto-complete__multi-value'] svg path")
+    MULTI_VALUE_REMOVE_ALL = (By.CSS_SELECTOR, ' div[class="auto-complete__indicators css-1wy0on6"]')
+
 
