@@ -849,3 +849,25 @@
 [DEBUG][2025-01-28 21:54:11,135][root] Prepare the browser
 [DEBUG][2025-01-28 21:54:11,860][root] The browser has been started in non-headless mode
 [DEBUG][2025-01-28 21:54:23,657][root] The browser has been closed
+[DEBUG][2025-02-01 10:06:46,907][root] Prepare the browser
+[DEBUG][2025-02-02 18:56:37,628][root] Prepare the browser
+[DEBUG][2025-02-02 18:56:44,643][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 18:56:51,602][root] The browser has been closed
+[DEBUG][2025-02-02 18:57:04,536][root] Prepare the browser
+[DEBUG][2025-02-02 18:57:05,194][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 18:57:17,293][root] The browser has been closed
+[DEBUG][2025-02-02 19:07:26,559][root] Prepare the browser
+[DEBUG][2025-02-02 19:07:27,935][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 19:07:47,708][root] The browser has been closed
+[DEBUG][2025-02-02 19:10:54,336][root] Prepare the browser
+[DEBUG][2025-02-02 19:10:55,699][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 19:11:10,950][root] The browser has been closed
+[DEBUG][2025-02-02 19:11:38,355][root] Prepare the browser
+[DEBUG][2025-02-02 19:11:39,419][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 19:11:46,765][root] The browser has been closed
+[DEBUG][2025-02-02 19:12:27,691][root] Prepare the browser
+[DEBUG][2025-02-02 19:12:28,467][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 19:12:39,667][root] The browser has been closed
+[DEBUG][2025-02-02 19:14:26,868][root] Prepare the browser
+[DEBUG][2025-02-02 19:14:28,295][root] The browser has been started in non-headless mode
+[DEBUG][2025-02-02 19:14:36,835][root] The browser has been closed
