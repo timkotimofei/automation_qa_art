@@ -83,6 +83,14 @@ class TestWidgets:
         @pytest.mark.regression
         @allure.title("Check autocomplete is filled_1")
         def test_fill_multi_autocomplete1(self, driver):
+            """
+            Steps:
+            1. Open the page 'https://demoqa.com/auto-complete'
+            2. Verify first auto complete is open
+            3. Send n colors in field
+            4. Verify that n colors is present in a autocomplete field
+
+            """
             autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
             autocomplete_page.open()
             colors_send = autocomplete_page.send_data_in_autocomplete_field()
@@ -136,8 +144,13 @@ class TestWidgets:
             assert after_col_form_field == True, 'The multi color field is not empty after delete'
 
 
-
-
+        @pytest.mark.regression
+        @allure.title("Check single color field")
+        def test_single_color_input(self, driver):
+            autocomplete_page = AutoCompletePage(driver, Urls.Web.AUTO_COMPLETE)
+            autocomplete_page.open()
+            text_before, text_after = autocomplete_page.send_data_to_single_color_field()
+            assert text_before == text_after, 'The color text does not match'
 
 
 

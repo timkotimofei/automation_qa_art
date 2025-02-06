@@ -1,3 +1,0 @@
-DEBUG    root:conftest.py:32 Prepare the browser
-DEBUG    root:conftest.py:49 The browser has been started in non-headless mode
-DEBUG    root:conftest.py:56 The browser has been closed
